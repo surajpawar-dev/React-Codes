@@ -1,6 +1,15 @@
 {
+  "homepage": "https://github.com/surajpawar-dev/React-Codes.git",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.8",
     "tailwindcss": "^4.1.8"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
